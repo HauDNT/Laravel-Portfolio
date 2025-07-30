@@ -1,0 +1,24 @@
+@props(['nav_items' => null])
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a href="#" class="navbar_author_title">
+            Hau Dang - Nguyen - Tien
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navbar-items" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                @foreach ($nav_items as $item)
+                    <li class="navbar-item">
+                        <a class="nav-link" href="{{ $item->nav_item_url }}">{{ $item->nav_item_name }}</a>
+                    </li>
+                @endforeach
+            </ul>
+        </div>
+        {{-- <span class="text-muted ms-3">Số mục: {{ $nav_items->count() }}</span> --}}
+    </div>
+</nav>

@@ -1,10 +1,5 @@
 @props(['bodyClass' => '', 'title' => ''])
 
-@php
-    use App\Models\nav_items;
-    $nav_items = nav_items::all();
-@endphp
-
 <!DOCTYPE html>
 <html>
 

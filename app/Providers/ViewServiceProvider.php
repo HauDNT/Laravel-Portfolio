@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use App\Models\nav_items;
+use App\Models\NavItem;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -22,7 +22,7 @@ class ViewServiceProvider extends ServiceProvider
     public function boot(): void
     {
         View::composer('*', function ($view) {
-            $view->with('nav_items', nav_items::all());
+            $view->with('nav_items', NavItem::all());
         });
     }
 }

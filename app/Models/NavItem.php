@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class nav_items extends Model
+class NavItem extends Model
 {
     protected $table = 'nav_items';
     protected $fillable = [

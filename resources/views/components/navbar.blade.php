@@ -19,6 +19,5 @@
                 @endforeach
             </ul>
         </div>
-        {{-- <span class="text-muted ms-3">Số mục: {{ $nav_items->count() }}</span> --}}
     </div>
 </nav>

@@ -22,7 +22,7 @@
 
 /* Navbar styles */
 .navbar {
-  position: relative;
+  position: fixed;
   z-index: 15;
   height: var(--navbar-height);
   width: 100%;
@@ -64,4 +64,17 @@
 
 .navbar-item > a:hover {
   opacity: 0.7;
+}
+
+/* Content page */
+.section-background-image {
+  background-image: url('https://www.shutterstock.com/image-photo/white-passenger-airplane-flying-sky-600nw-2471932239.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.h-1000 {
+  height: 1000px;
 }

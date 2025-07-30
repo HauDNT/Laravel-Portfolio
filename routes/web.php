@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContentPageController;
 use Illuminate\Support\Facades\Route;
 
 Route::redirect('/', '/about-me');
-Route::get('/about-me', [AboutController::class, 'index']);
+
+Route::get('/{pageLink}', [ContentPageController::class, 'loadPage']);

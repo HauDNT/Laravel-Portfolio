@@ -23,7 +23,7 @@
 </head>
 
 <body @if ($bodyClass) class="{{ $bodyClass }}" @endif>
-    <x-navbar :nav_items="$nav_items" />
+    <x-portfolio.navbar :nav_items="$nav_items" />
     {{ $slot }}
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"

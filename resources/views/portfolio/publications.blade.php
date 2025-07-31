@@ -1,8 +1,8 @@
-<x-base-layout title="Publications">
+<x-portfolio-layout title="Publications">
     <main>
         <section class="section-background-image"></section>
         <section class="h-1000">Section 1</section>
         <section>Section 2</section>
         <section>Section 3</section>
     </main>
-</x-base-layout>
+</x-portfolio-layout>

@@ -2,7 +2,6 @@
     <script src="{{ asset('js/navbar.js') }}"></script>
 @endpush
 
-
 <nav id="adminNavbar" class="navbar navbar-expand-lg sticky-top z-3 py-3">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

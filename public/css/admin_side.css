@@ -1,6 +1,6 @@
 /* Sidebar */
 .admin-sidebar {
-  padding: 12px 24px 12px 12px;
+  padding: 12px 36px 12px 8px;
   margin-right: 10px;
   background-image: linear-gradient(to top right, #3572EF, #B4D4FF);
   border-radius: 25px;
@@ -50,7 +50,8 @@
 
 .sidebar-item--icon {
   margin-right: 16px;
-  font-size: 20px;
+  width: 30px;
+  height: 30px;
   color: white;
 }
 
@@ -60,6 +61,19 @@
   font-weight: 600;
 }
 
+.activeLink .sidebar-item--icon {
+  padding: 4px;
+  width: 36px;
+  height: 36px;
+  color: #3572EF;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.activeLink .sidebar-item--link {
+  font-size: 17px;
+  font-weight: 600;
+}
 
 /* Navbar */
 .navbar {

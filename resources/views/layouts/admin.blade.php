@@ -20,13 +20,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/css/admin_side.css" />
 </head>
 
 <body @if ($bodyClass) class="{{ $bodyClass }}" @endif>
-    <div class="wrapper d-flex">
+    <div class="wrapper d-flex m-1 p-2 border border-secondary-subtle rounded-5">
         <x-admin.sidebar />
 
-        <div class="main-content w-100">
+        <div class="main-content flex-grow-1 h-1000">
             <x-admin.navbar />
 
             <main class="p-4">

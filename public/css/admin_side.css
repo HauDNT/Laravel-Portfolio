@@ -1,0 +1,95 @@
+.admin-sidebar {
+  padding: 12px 24px 12px 12px;
+  background-image: linear-gradient(to top right, #3572EF, #B4D4FF);
+  border-radius: 25px;
+  min-width: 250px;
+}
+
+.sidebar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0 48px;
+}
+
+.sidebar-brand--image {
+  width: 150px;
+  margin: auto;
+}
+
+.sidebar-menu {
+  margin: 64px 0;
+}
+
+.sidebar-item {
+  font-size: 18px;
+  margin-left: 16px;
+  margin-bottom: 24px;
+  padding: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sidebar-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.sidebar-item:hover::after {
+  width: 95%;
+}
+
+.sidebar-item--icon {
+  margin-right: 16px;
+  font-size: 20px;
+  color: white;
+}
+
+.sidebar-item--link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+/* .sidebar-btn-logout {
+  height: max-content;
+  width: 70%;
+  border: 3px solid white;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  padding: 0 12px;
+}
+
+.sidebar-btn-logout:hover {
+  background-color: red;
+  border-color: red;
+}
+
+.sidebar-btn-logout:hover > button,
+.sidebar-btn-logout:hover > .btn-logout--icon {
+  color: white;
+  transition: color 0.3s ease, fill 0.3s ease;
+}
+
+.sidebar-btn-logout > button {
+  padding: 10px 20px;
+  background: red;
+  border: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.btn-logout--icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  color: black;
+  transition: fill 0.3s ease, color 0.3s ease;
+} */

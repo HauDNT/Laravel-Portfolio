@@ -7,13 +7,13 @@
         <div class="sidebar-item d-flex align-items-center w-100">
             <i class="fas fa-house-user sidebar-item--icon"></i>
             <a href="#" class="sidebar-item--link flex-grow-1">
-                Dashboard
+                Trang chủ
             </a>
         </div>
         <div class="sidebar-item d-flex align-items-center w-100">
             <i class="fas fa-house-user sidebar-item--icon"></i>
             <a href="#" class="sidebar-item--link flex-grow-1">
-                Content page
+                Thông tin cá nhân
             </a>
         </div>
         <div class="sidebar-item d-flex align-items-center w-100">

@@ -24,12 +24,12 @@
 </head>
 
 <body @if ($bodyClass) class="{{ $bodyClass }}" @endif>
-    <div class="wrapper d-flex m-1 p-2 border border-secondary-subtle rounded-5">
+    <div class="wrapper d-flex m-1 p-2 border border-secondary-subtle rounded-3">
         <x-admin.sidebar />
 
-        <div class="main-content flex-grow-1 h-1000">
+        <div class="admin-main-content flex-grow-1 h-1000">
             <x-admin.navbar />
-            <main class="p-4">
+            <main>
                 {{ $slot }}
             </main>
 

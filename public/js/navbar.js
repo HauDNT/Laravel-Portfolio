@@ -10,3 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+const navbarIcon = document.getElementById('adminNavbarIcon');
+const othersMenu = document.getElementById('adminNavbarMenu');
+navbarIcon.addEventListener('click', function () {
+    othersMenu.classList.toggle('d-none');
+});

@@ -38,6 +38,10 @@
 }
 
 /* Breadcrumb */
+.breadcrumb {
+  margin: 0;
+}
+
 .breadcrumb-item a {
   text-decoration: none;
 }

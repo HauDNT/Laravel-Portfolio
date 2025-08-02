@@ -158,3 +158,58 @@
   border: 1px solid #dadada;
   border-radius: 30px;
 }
+
+.navbar-others {
+  position: relative;
+  user-select: none;
+  transition: 0.3s;
+}
+
+.navbar-others--icon {
+  width: 24px;
+  height: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+.navbar-others--menu {
+  position: absolute;
+  top: 30px;
+  left: -150px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-others--menu ul {
+  padding: 5px;
+  margin: 0;
+  min-width: 180px;
+  list-style: none;
+}
+
+.navbar-others--menu ul li {
+  padding: 10px;
+}
+
+.navbar-others--menu ul li:hover a {
+  font-weight: 600;
+}
+
+.navbar-others--menu ul li a {
+  width: 100%;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+/* Main content */
+.admin-main-content {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.admin-main-content main {
+  padding: 24px 4px 4px 12px;
+}

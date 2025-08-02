@@ -1,9 +1,13 @@
+@push('scripts')
+    <script src="{{ asset('js/sidebar.js') }}"></script>
+@endpush
+
 @php
     $activeLink = 'activeLink';
     $inActiveLink = 'inActiveLink';
 @endphp
 
-<aside class="bg-teal-500 min-h-screen flex-shrink-0 admin-sidebar">
+<aside id="adminSidebar" class="bg-teal-500 min-h-screen flex-shrink-0 d-none d-md-block admin-sidebar">
     <div class="sidebar-brand">
         <img class="sidebar-brand--image" src="/imgs/portfolio.png" />
     </div>

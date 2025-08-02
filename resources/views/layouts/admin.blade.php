@@ -29,10 +29,11 @@
 
         <div class="main-content flex-grow-1 h-1000">
             <x-admin.navbar />
-
             <main class="p-4">
                 {{ $slot }}
             </main>
+
+            <x-float-button />
         </div>
     </div>
 

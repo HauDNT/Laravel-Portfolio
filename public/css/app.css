@@ -11,3 +11,28 @@
 .overflow-hidden {
   overflow: hidden;
 }
+
+.float-button {
+  width: 70px;
+  height: 50px;
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateX(-45%);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  cursor: pointer;
+  padding: 10px 10px 10px 5px;
+  z-index: 9999;
+}
+
+.float-button--icon {
+  width: 24px;
+  height: 24px;
+}

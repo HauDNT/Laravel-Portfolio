@@ -9,7 +9,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNav">
-            <div class="navbar-breadcrum">Navbar > Breadcrum</div>
+            <div class="navbar-breadcrum">
+                {!! Breadcrumbs::render() !!}
+            </div>
             <div class="navbar-others">
                 <x-heroicon-o-home style="width: 24px; height: 24px; color: gray;" />
             </div>

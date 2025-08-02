@@ -36,3 +36,16 @@
   width: 24px;
   height: 24px;
 }
+
+/* Breadcrumb */
+.breadcrumb-item a {
+  text-decoration: none;
+}
+
+.breadcrumb-item a {
+  color: black;
+}
+
+.breadcrumb-item.active {
+  color: #3572EF;
+}

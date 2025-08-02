@@ -137,8 +137,11 @@
 }
 
 .mobile-sidebar-item:hover {
-  background-color: #f0f0f0;
   font-weight: 600;
+}
+
+.mobile-sidebar-item:hover .mobile-sidebar-item--icon {
+  opacity: 1;
 }
 
 /* Navbar */

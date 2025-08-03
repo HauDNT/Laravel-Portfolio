@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('backlground_pictures', function (Blueprint $table) {
+        Schema::create('background_pictures', function (Blueprint $table) {
             $table->id();
             $table->foreignId("page_id")->constrained("nav_items");
             $table->text("image_url");
@@ -24,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('backlground_pictures');
+        Schema::dropIfExists('background_pictures');
     }
 };

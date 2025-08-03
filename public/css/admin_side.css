@@ -1,3 +1,89 @@
+/* Login page */
+.admin-login-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/imgs/admin_login_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.admin-login-content {
+  width: 60%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.admin-login-title-side--heading {
+  font-size: 48px;
+}
+
+.admin-login-title-side--divide {
+  display: block;
+  max-width: 30%;
+  height: 10px;
+  margin: 50px 0;
+  background-color: #6493ef;
+  border-radius: 25px;
+}
+
+.admin-login-form-side {
+  padding: 20px;
+  background: rgba(166, 161, 161, 0.071);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.admin-login-form-side h1 {
+  margin-bottom: 12pxx;
+}
+
+.admin-login-form--field-title {
+  font-weight: 600;
+  margin: 0;
+}
+
+.admin-login-form--field-title:not(:first-child) {
+  margin-top: 16px;
+}
+
+.admin-login-form--field-input {
+  margin: 4px 0;
+  width: 100%;
+  padding: 8px 24px;
+  border: 0.5px solid #eee;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.admin-login-form--submit {
+  padding: 4px;
+  margin-top: 36px;
+  background-color: #d3d5d8;
+  border-radius: 160px;
+}
+
+.admin-login-form--submit:hover {
+  opacity: 0.5;
+}
+
+.admin-login-form--submit button {
+  width: 100%;
+  padding: 4px 0;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 24px;
+  background-color: #fff;
+}
+
 /* Sidebar */
 .admin-sidebar {
   padding: 12px 36px 12px 8px;

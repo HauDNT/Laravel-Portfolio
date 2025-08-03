@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.website-brand {
+  font-weight: 600;
+  color: #3572EF;
+}
+
 .h-1000 {
   height: 1000px;
 }

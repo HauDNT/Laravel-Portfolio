@@ -10,6 +10,10 @@ Route::get('/{pageLink}', [ContentPageController::class, 'loadPage']);
 
 // Admin routes
 Route::prefix('admin')->group(function () {
+    Route::get('/login', function () {
+        return view('admin.login');
+    })->name('admin.login');
+
     Route::get('/dashboard', function () {
         return view('admin.dashboard');
     })->name('admin.dashboard');

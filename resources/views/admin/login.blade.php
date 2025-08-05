@@ -31,11 +31,20 @@
             <div class="admin-login-form-side d-flex flex-column justify-content-center align-items-start w-50 ms-3">
                 <h1 class="text-center w-100">Login</h1>
                 <div class="admin-login-form w-100">
-                    <form>
+                    <form method="POST" action="{{ route('admin.login') }}">
+                        @csrf
                         <p class="admin-login-form--field-title">Username</p>
-                        <input class="admin-login-form--field-input" placeholder="Enter your username" />
+                        <input type="text" name="username" class="admin-login-form--field-input"
+                            placeholder="Enter your username" />
                         <p class="admin-login-form--field-title">Password</p>
-                        <input class="admin-login-form--field-input" placeholder="Enter your password" />
+                        <input type="password" name="password" class="admin-login-form--field-input"
+                            placeholder="Enter your password" />
+
+                        @if ($errors->any())
+                            <div style="color: red; padding: 10px 0;">
+                                {{ $errors->first() }}
+                            </div>
+                        @endif
 
                         <div class="admin-login-form--submit">
                             <button>Login</button>

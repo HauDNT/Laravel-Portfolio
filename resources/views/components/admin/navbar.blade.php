@@ -18,7 +18,13 @@
                 <div id="adminNavbarMenu" class="navbar-others--menu d-none">
                     <ul>
                         <li>
-                            <a href="#">Đăng xuất</a>
+                            <a href="#"
+                                onclick="event.preventDefault(); document.getElementById('admin-logout-form').submit();">
+                                Đăng xuất
+                            </a>
+                            <form id="admin-logout-form" action="{{ route('admin.logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
                         </li>
                         <li>
                             <a href="#">Chia sẻ thông tin</a>
